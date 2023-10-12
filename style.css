@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    background: black  ;
+    color: white;
+    font-family: sans-serif;
+}
+.header{
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgb(0 0 0 / 46%) 60%, rgba(0, 0, 0, 0.8) 100%) , url(https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+}
+.logo{
+    width: 9.25rem;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -41px 60px 0 52px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 20px;
+    cursor: pointer;
+    height: 30px;
+}.En-btn{
+    display: inline-flex;
+    align-items: center;
+    border: solid 1px;
+    background: transparent;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 4px;
+}
+.down-arrow{
+    width: 16px;
+    height: 16px;
+    margin-left: 18px;
+} 
+.header-content{
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
+    width: 60rem;
+    text-align: center;
+}
+.header-content h1{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.header-content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.header-content p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.signup-email input{
+    border: solid 1px gray;
+    outline: 0;
+    font-size: 16px;
+    padding: 1.38rem 3rem 17px 13px;
+    border-radius: 4px;
+    text-align: left;
+    background-color: #00000070;
+    width: 20rem;
+}
+  
+.signup-email button{
+    background: rgb(229, 9, 20);
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: 550;
+
+}
+.separation{
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(35,35,35);
+    position: absolute;
+}
+.content-section{
+    width: 100%;
+    height: auto;
+    padding: 4.5rem 0;
+    display:flex;
+}
+.left-section{
+    width: 50vw;
+    height: auto;
+    padding: 0 7rem;
+}
+.right-section{
+    width: 50vw;
+    height: auto; 
+    padding-right: 2rem; 
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255,255,255);
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.container {
+    position: relative;
+  }
+  
+  .tv-image {
+    max-width: 80%;
+   
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 4rem;
+    left: 3.3rem;
+    width: 59%;
+    height: 80%;
+    overflow: hidden;
+    z-index: -1;
+
+  }
+  
+  .tv-video {
+    width:100%;
+    mix-blend-mode: lighten;
+  }
+  .st-box{
+    width: 42%;
+    height: 4.5rem;
+    background: black;
+    border: gray solid 2px;
+    border-radius: 13px;
+    left: 17%;
+    position: relative;
+    bottom: 111px;
+    
+    padding: 10px;
+  }
+  .st-img{
+    width: 80%;
+  }
+  
+  
+  .st-box img{
+    width: 50px;
+    float: left;
+    
+  }
+  .text{
+    font-size: 1rem;
+    margin-left: 4rem;
+    font-weight: 500;
+  } 
+  .text-downloading{
+    margin-left: 3.9rem;
+    color: #0071eb;
+   
+  }
+  .gif-div{
+    width: 50%;
+    height: 50%;
+  }
+  .gif{
+    position: absolute;
+    left: 11rem;
+    bottom: 1rem;
+  }
+  .img-tv{
+    width: 100%;
+    
+  }
+  .movie-sc{
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    max-width: 63%;
+    max-height: 47%;
+    position: relative;
+    bottom: 46%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+.childern-img{
+    width: 100%;
+}
+.faq-section h1{
+    
+   text-align: center;
+}
+.faq-section{
+    text-align: center;
+    margin: 0 156px 70px
+}
+.faq{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(45,45,45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0 28px;
+}
+h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.footer{
+    
+    padding: 5rem 15rem;
+    line-height: 2rem;
+    color:rgb(254 255 255 / 70%); 
+}
+a{
+    color: rgb(254 255 255 / 70%);
+    margin-right: 10px;
+ }
+ #ft-en-btn{
+    margin: 15px -3px;
+ }
+ 
+ul{
+    list-style-type: none;
+    
+}
+.first-row{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;    
+ }
+ .second-row{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;    
+ }
+ .third-row{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;    
+ }
+ .fourth-row{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;    
+ }
+
